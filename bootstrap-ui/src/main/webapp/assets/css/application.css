@@ -1,0 +1,47 @@
+.info {
+    color: green;
+    background: #b2ffaa;
+}
+
+.error {
+    color: red;
+    background: #ffb1a6;
+}
+
+.entryText {
+    font-size: 18px;
+    overflow-x: auto;
+    overflow-y:hidden;
+}
+
+.user-info-dashboard {
+    padding-top: 10px;
+    color: white;
+}
+
+.padding-for-navbar {
+    padding-top: 50px;
+}
+
+.feedback-container {
+    position: absolute;
+    top: 40px;
+    z-index: 1090;
+}
+
+#feedback {
+    margin: 0 auto 0 auto;
+    float: none;
+    z-index: 1090;
+}
+
+.new-entries-box {
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+}
