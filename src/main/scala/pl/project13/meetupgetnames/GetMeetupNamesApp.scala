@@ -15,7 +15,10 @@ object GetMeetupNamesApp extends App
 
   // ---
 
-  val url = askForMeetupUrl()
+  val url = if (args.size == 1)
+      args.head
+    else
+      askForMeetupUrl()
 
   val allMembers = slurper.slurpMembers(url)
 
