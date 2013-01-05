@@ -8,7 +8,16 @@ and then you can simply start a raffle based on that.
 
 Demo
 ====
+All you need to do is:
 
+```
+$ sbt run
+Meetup URL:  http://www.meetup.com/Krakow-Scala-User-Group/events/96668702/
+
+# and you get:
+```
+
+<img src="https://raw.github.com/ktoso/meetup-get-names/master/demo.png"/>
 
 License
 =======
